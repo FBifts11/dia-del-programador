@@ -15,4 +15,4 @@ setTimeout(() => {
     }else {
         document.getElementById('mensaje').innerText = 'Hoy no es el día del programador pero igual queremos saludarlos!'
     }
-}, 2500);
+}, 2000);
