@@ -12,7 +12,9 @@ const hoy = new Date();
 setTimeout(() => {
     if (calcular_dia(hoy) == 256) {
         document.getElementById('mensaje').innerText = '¡¡¡Feliz día del programador!!!'
+        document.getElementById('profes').style.visibility = "visible";
     }else {
         document.getElementById('mensaje').innerText = 'Hoy no es el día del programador pero igual queremos saludarlos!'
+        document.getElementById('profes').style.visibility = "visible";
     }
-}, 2000);
+}, 1500);

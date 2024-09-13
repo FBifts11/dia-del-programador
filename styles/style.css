@@ -10,6 +10,13 @@
     animation: mensaje 2s infinite;
 }
 
+#profes{
+    position: fixed;
+    bottom: 5%;
+    right: 1%;
+    visibility:hidden;
+}
+
 @keyframes mensaje {
     0% { color: red; }
     25% { color: blue; }
