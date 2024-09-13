@@ -1,0 +1,19 @@
+.center {
+    width: 75%;
+    margin: 15% auto;
+    text-align: center;
+}
+
+#mensaje {
+    font-size: 5em;
+    font-weight: bold;
+    animation: mensaje 2s infinite;
+}
+
+@keyframes mensaje {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: red; }
+}
